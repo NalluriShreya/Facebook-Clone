@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.main_box{
+    background: rgb(235, 237, 240);
+    height: 110vh;
+}
+
+.main_box .title{
+    color: rgb(4, 113, 255);
+    font-size: 30px;
+    position: relative;
+    top: 30%;
+    left: 11%;
+    width: 450px;
+    margin-bottom: 10px;
+
+}
+
+.main_box .line{
+    position: relative;
+    top: 32%;
+    left: 11%;
+    width: 450px;
+    font-size: 24px;
+}
+
+.main_box .details{
+    box-shadow: 0 0 6px rgb(139, 137, 137);
+    position: relative;
+    top: 2%;
+    left: 55%;
+    width: 375px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+}
+
+.main_box .details .email{
+    width: 96%;
+    height: 50px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 1px rgb(97, 96, 96);
+    margin-bottom: 12px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.main_box .details .password{
+    width: 96%;
+    height: 50px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 1px rgb(97, 96, 96);
+    margin-bottom: 18px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.main_box .details .login{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 1px rgb(97, 96, 96);
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main_box .details .login:hover{
+    cursor: pointer;
+}
+
+.main_box .details .forg_pass{
+    position: relative;
+    left: 115px;
+    text-decoration: none;
+    color: rgb(24, 119, 242);
+}
+
+.main_box .details .forg_pass:hover{
+    text-decoration: underline;
+}
+
+.main_box .details .account{
+    position: relative;
+    left: 24%;
+    width: 50%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(66, 183, 42);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 1px rgb(97, 96, 96);
+    margin-top: 28px;
+}
+
+.main_box .details .account:hover{
+    background-color: rgb(0, 170, 0);
+}
+
+.main_box .end{
+    position: relative;
+    top: 7%;
+    left: 59%;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.main_box .end .link{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.main_box .end .link:hover{
+    text-decoration: underline;
+}
+
+@media(min-width:901px) and (max-width:1029px){
+    .main_box .title{
+        left: 40px;
+    }
+    .main_box .line{
+        left: 40px;
+    }
+}
+
+@media(max-width:900px){
+    .main_box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .main_box .title{
+        align-self: center;
+        width: 320px;
+        top: 25px;
+        left: 0;
+        margin: 2 auto;
+    }
+    .main_box .line{
+        top: 30px;
+        left: 0;
+        width: 400px;
+    }
+    .main_box .details{
+        top: 60px;
+        left: 0;
+    }
+    .main_box .details .forg_pass{
+        left: 0;
+    }
+    .main_box .details .account{
+        left: 0;
+    }
+    .main_box .end{
+        left: 0;
+        top: 100px;
+    }
+
+}
